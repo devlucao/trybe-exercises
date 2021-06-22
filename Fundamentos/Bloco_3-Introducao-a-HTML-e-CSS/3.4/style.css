@@ -36,8 +36,9 @@ body {
 }
 
 footer {
-    font-size: 12px;
+font-size: 12px;
 font-style: italic;
 color: #FFE45E;
 background-color: #7FC8F8;
+text-align: center;
 }

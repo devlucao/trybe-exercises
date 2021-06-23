@@ -28,7 +28,7 @@ if(a > b && a > c){
     console.log(c)
 }
 
-let a = 10;
+let a = 0;
 
 if(a > 0) {
     console.log('Positive')
@@ -37,4 +37,21 @@ if(a > 0) {
 }else{
     console.log('Zero')
 }
+
+let anguloA = 90;
+let anguloB = 50;
+let anguloC = -45;
+let somaDosAngulos = anguloA + anguloB + anguloC;
+let angulosPositivos = anguloA > 0 && anguloB > 0 && anguloC > 0;
+
+if(angulosPositivos == true){
+    if(somaDosAngulos === 180){
+        console.log('true');
+    }else{
+        console.log('false')
+    }
+}else{
+    console.log('Erro = Angulo inválido')
+}
+
 

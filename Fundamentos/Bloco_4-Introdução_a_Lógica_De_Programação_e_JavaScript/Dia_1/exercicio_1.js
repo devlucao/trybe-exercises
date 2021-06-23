@@ -7,5 +7,9 @@ console.log('Multiplicação: ' + (a * b));
 console.log('Divisão: ' + (a / b));
 console.log('Módulo: ' + (a % b));
 
-
+if (a > b) {
+    console.log(a);
+}else{
+    console.log(b);
+}
 

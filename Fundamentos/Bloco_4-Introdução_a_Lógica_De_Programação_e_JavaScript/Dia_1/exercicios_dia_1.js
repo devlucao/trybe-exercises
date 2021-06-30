@@ -142,3 +142,36 @@ if (valorValido === true) {
     console.log("Valor inválido.");
 }
 
+//Exercício 11
+
+let aliquotaINSS;
+let aliquotaIR;
+let salarioBruto = 3000;
+
+if (salarioBruto <= 1556.94) {
+    console.log(aliquotaINSS = salarioBruto * 0.08);
+} else if (salarioBruto <= 2594.92) {
+    console.log(aliquotaINSS = salarioBruto * 0.09);
+} else if (salarioBruto <= 5189.82) {
+    console.log(aliquotaINSS = salarioBruto * 0.11);
+} else {
+    console.log(aliquotaINSS = 570.88);
+}
+
+let salarioBase = salarioBruto - aliquotaINSS;
+console.log(salarioBase)
+
+if (salarioBase <= 1903.98) {
+    console.log(aliquotaIR = 0);
+} else if (salarioBase <= 2826.65) {
+    console.log(aliquotaIR = salarioBase * 0.075 - 142.80);
+} else if (salarioBase <= 3751.05) {
+    console.log(aliquotaIR = salarioBase * 0.15 - 354.80);
+} else if (salarioBase <= 4664.68) {
+    console.log(aliquotaIR = salarioBase * 0.225 - 636.13);
+} else {
+    console.log(aliquotaIR = salarioBase * 0.275 - 864.36);
+}
+
+let salarioLiquido = salarioBase - aliquotaIR;
+console.log("O salário líquido é de " + salarioLiquido + " reais.")

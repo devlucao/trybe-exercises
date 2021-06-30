@@ -129,3 +129,16 @@ if (num1 % 2 !== 0 || num2 % 2 !== 0 || num3 % 2 !== 0) {
 }
 
 // Exercicio 10
+
+let custoProduto = 5;
+let valorProduto = 10;
+let valorValido = custoProduto > 0 && valorProduto > 0;
+let valorCustoTotal = custoProduto + (custoProduto * 20 / 100);
+let lucro = valorProduto - valorCustoTotal;
+
+if (valorValido === true) {
+    console.log("A empresa terá " + (lucro * 1000) + " reais de lucro.");
+} else {
+    console.log("Valor inválido.");
+}
+

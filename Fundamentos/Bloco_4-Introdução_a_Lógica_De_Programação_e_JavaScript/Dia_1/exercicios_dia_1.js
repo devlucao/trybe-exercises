@@ -18,12 +18,31 @@
 
 //Exercício Parte IV - Dia 1
 
-let notaCandidato = 65;
+// let notaCandidato = 65;
 
-if (notaCandidato >= 80) {
+// if (notaCandidato >= 80) {
+//     console.log("Parabéns, você foi aprovado!");
+// } else if (notaCandidato >= 60) {
+//     console.log("Você está na nossa lista de espera.");
+// } else {
+//     console.log("Você foi reprovado.")
+// }
+
+// Exercicio Parte V - Dia 1
+
+let situacaoCandidato = "lista";
+
+switch(situacaoCandidato) {
+    case "aprovado":
     console.log("Parabéns, você foi aprovado!");
-} else if (notaCandidato >= 60) {
+    break;
+    case "lista":
     console.log("Você está na nossa lista de espera.");
-} else {
-    console.log("Você foi reprovado.")
+    break;
+    case "reprovado":
+    console.log("Você foi reprovado.");
+    break;
+
+    default:
+    console.log("Não se aplica");
 }

@@ -9,11 +9,21 @@
 
 // Exercício Parte III - Dia 1
 
-let base = 5;
-let altura = 8;
+// let base = 5;
+// let altura = 8;
 
-let area = base * altura;
-let perimetro = (base *2) + (altura *2);
-console.log(area);
+// let area = base * altura;
+// let perimetro = (base *2) + (altura *2);
+// console.log(area);
 
 //Exercício Parte IV - Dia 1
+
+let notaCandidato = 65;
+
+if (notaCandidato >= 80) {
+    console.log("Parabéns, você foi aprovado!");
+} else if (notaCandidato >= 60) {
+    console.log("Você está na nossa lista de espera.");
+} else {
+    console.log("Você foi reprovado.")
+}

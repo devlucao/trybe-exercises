@@ -1,0 +1,63 @@
+Algoritmos
+
+Exercício 1
+
+- Declarar a variável (let) numbers para atribuir o array;
+- Criar um loop que percorra o array;
+- Imprimir valores contidos no array com o console.log;
+
+Exercício 2
+- Declarar a variável (let) numbers para atribuir o array;
+- Declarar variável (let) para soma com valor 0;
+- Criar um loop que percorra o array (for);
+- Criar função para realizar soma do valor dos índices (sum += numbers[i]);
+- [FORA DA ESTRUTURA FOR] Imprimir resultado final (console.log);
+
+Exercício 3
+- Declarar a variável (let) numbers para atribuir o array;
+- Declarar a variável (let) para soma com valor 0;
+- Criar um loop que percorra o array (for);
+- Criar função para realizar a soma do valor dos índices (sum += numbers[i]);
+- [FORA DA ESTRUTURA FOR] Declarar variável (let) para calcular a média que é o resultado da variável soma dividido pelo tamanho do array;
+- Imprimir (console.log) resultado da variável média.
+
+Exercício 4
+- Declarar a variável (let) numbers para atribuir o array;
+- Declarar a variável (let) para soma com valor 0;
+- Criar um loop que percorra todo o array (for);
+- Criar função para realizar soma do valor dos índices (sum += numbers[i]);
+- [FORA DA ESTRUTURA FOR] Declarar variável (let) para calcular a média que é o resultado da variável soma dividido pelo tamanho do array;
+- Criar estrutura if/else;
+- Inserir primeira condição (if) que é: caso o número seja maior que 20, deve imprimir (console.log) "Valor maior que 20";
+- Inserir a outra condição (else) que caso a primeira não seja atendida, deve imprimir (console.log) "Valor menor ou igual a 20";
+
+Exercício 5
+- Declarar a variável (let) numbers para atribuir o array;
+- Declarar a variável (let) maior valor com posição do índice zero ([0]);
+- Criar um loop que percorra o array a partir do segundo índice para poder comparar com o anterior (for);
+- Criar estrutura if/else;
+- Inserir primeira condição (if) que é: Caso o índice atual do array seja maior que a variável maior valor (numbers[i] > maiorValor) deve atribuir o valor do índice a variável maiorValor;
+- [FORA DA ESTRUTURA FOR] Imprimir (console.log) o array maior valor;
+
+Exercício 6
+- Declarar a variável (let) numbers para atribuir o array;
+- Declarar a variável (let) ímpar vazia;
+- Criar um loop que percorra todo o array;
+- Criar estrutura if/else;
+- Inserir primeira condição (if) que é: caso o resto da divisão entre o índice do array numbers por 2 (usando operador módulo'%') seja diferente de zero, o valor deve ser inserido na variável composta(array) ímpar (impar += 1);
+- Fechar loop de repetição (for);
+- Fechar estrutura condicional (if);
+- Criar uma nova estrutura if/else;
+- Inserir condição (if) que, caso o array impar seja igual a zero, deve imprimir (console.log) a mensagem "Nenhum número ímpar encontrado";
+- Inserir a outra condição (else) que, caso a primeira condição não seja satisfeita, deve-se imprimir (console.log) o array ímpar;
+
+Exercício 7
+- Declarar a variável (let) numbers para atribuir o array;
+- Declarar a variável (let) menor valor de 999;
+- Criar um loop que percorra o array a partir do segundo ínidce para poder comparar com o anterior (for);
+- Criar estrutura if/else;
+- Inserir a primeira condição (if) que é: Caso o índice do array seja menor que o valor da variável menor valor (numbers[i] < menorValor) deve atribuir o valor do índice a variável menor valor;
+- [FORA DA ESTRUTURA FOR] Imprimir o array menor valor;
+
+
+

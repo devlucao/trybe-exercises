@@ -9,3 +9,7 @@ for(i = 0; i < fruits.length; i +=1) {
     } else {
         console.log("Valor menor que 16.");
     }
+
+    //Exercicio 2 - Escrevendo Algoritimos dos exercicios da aula 4.2
+
+    

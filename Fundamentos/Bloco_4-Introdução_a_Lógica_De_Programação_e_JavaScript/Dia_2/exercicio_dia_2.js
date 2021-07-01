@@ -70,3 +70,17 @@ for(i = 1; i < numbers.length; i += 1){
 }
 console.log(menorValor);
 
+//Exercício 8
+let array =[];
+
+for (i = 0; i <= 25; i +=1) {
+    array.push(i);
+}
+console.log(array);
+
+//Exercicio 9
+let array =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25];
+
+for (i = 0; i <= 25; i +=1) {
+    console.log(array[i] / 2);
+}

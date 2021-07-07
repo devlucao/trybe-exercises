@@ -12,5 +12,22 @@ for(let i = 0; i < n; i += 1){
 }
 
 //Exercício 2
+let n = 5;
+let symbol = '*';
+let inputLine = '';
 
-   
+for(let i = 0; i <= n; i += 1) {
+    console.log(inputLine);
+    inputLine = inputLine + symbol;
+}
+
+//Exercício 2
+let n = 5;
+let symbol = '*';
+let inputLine = '';
+
+for(let i = 0; i <= n; i += 1) {
+    console.log(inputLine);
+    inputLine = inputLine + symbol;
+}
+

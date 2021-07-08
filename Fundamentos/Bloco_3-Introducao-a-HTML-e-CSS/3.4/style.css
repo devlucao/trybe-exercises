@@ -1,0 +1,44 @@
+h1 {
+    font-size: 2em;
+}
+
+
+h1, h2, h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    background-color: #FF6392;
+}
+
+.img {
+    width: 200px;
+    border-style: solid;
+    border-color: #FFE45E;
+}
+
+
+body {
+    color: #F9F9F9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #5AA9E6;
+    line-height: 20px ;
+    
+    }
+
+.stomatopoda {
+    color: #FFE45E;
+    font-weight: bold;
+}
+
+.list-style {
+    background-color: #7FC8F8;
+    text-decoration: underline;
+    color: #FFE45E;
+}
+
+footer {
+font-size: 12px;
+font-style: italic;
+color: #FFE45E;
+background-color: #7FC8F8;
+text-align: center;
+}

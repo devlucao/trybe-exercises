@@ -77,3 +77,29 @@ function maiorValor(array) {
 
 console.log(maiorValor([2, 3, 6, 7, 10, 1]));
 
+// Exercício 3
+
+// function menorValor(array) {
+//     let minIndex = 0;
+//     for(let index in array) {
+//      if (array[minIndex] > array[index]) {
+//          minIndex = index;
+//      }
+//     }
+//     return minIndex;
+// }
+
+// console.log(menorValor([2, 4, 6, 7, 10, 0, -3]));
+
+//Exercício 4
+function maiorNome(letras) {
+    let maiorNome = [0];
+    for(let index in letras){
+        if(maiorNome.length < letras[index].length) {
+            maiorNome = letras[index];
+        }
+    }
+    return maiorNome;
+}
+console.log(maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+

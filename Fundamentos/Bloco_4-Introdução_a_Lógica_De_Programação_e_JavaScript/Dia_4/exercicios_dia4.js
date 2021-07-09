@@ -52,15 +52,28 @@
 
 //--------Parte 2 - Funções
 //Exercício 1
-function verificaPalindromo(string) {
-  let palindromo = string.split("").reverse().join("");
-  if (palindromo === string){
-      return true;
-  } else {
-      return false;
-  }
-}
+// function verificaPalindromo(string) {
+//   let palindromo = string.split("").reverse().join("");
+//   if (palindromo === string){
+//       return true;
+//   } else {
+//       return false;
+//   }
+// }
 
-console.log(verificaPalindromo("arara"));
+// console.log(verificaPalindromo("arara"));
 
 // Exercício 2
+
+function maiorValor(array) {
+    let maxIndex = 0;
+    for(let index in array) {
+     if (maxIndex < array[index]) {
+         maxIndex = index;
+     }
+    }
+    return maxIndex;
+}
+
+console.log(maiorValor([2, 3, 6, 7, 10, 1]));
+

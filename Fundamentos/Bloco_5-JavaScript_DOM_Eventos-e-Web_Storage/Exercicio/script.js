@@ -47,3 +47,10 @@ for(let number in numbers){
     elementLi.innerHTML = numbers[number];
     elementUl.appendChild(elementLi);
 }
+
+//Exercicio 9
+for(let index = 0; index <= 3; index+=1){
+const elementH3 = document.createElement("h3");
+elementMain.appendChild(elementH3);
+}
+

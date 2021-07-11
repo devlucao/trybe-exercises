@@ -37,3 +37,13 @@ const elementImg = document.createElement("img");
 elementImg.className = "small-image";
 elementImg.src = "https://picsum.photos/200";
 elementSectionLeft.appendChild(elementImg);
+
+//Exercicio 8
+const elementUl = document.createElement("ul");
+elementSectionRight.appendChild(elementUl);
+const numbers = ["Um", "Dois", "Três", "Quatro", "Cinco", "Seis", "Sete", "Oito", "Nove", "Dez"];
+for(let number in numbers){
+    const elementLi = document.createElement("li");
+    elementLi.innerHTML = numbers[number];
+    elementUl.appendChild(elementLi);
+}

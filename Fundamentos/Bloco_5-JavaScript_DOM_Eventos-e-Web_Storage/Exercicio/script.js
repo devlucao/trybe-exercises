@@ -70,3 +70,11 @@ elementMain.removeChild(elementSectionLeft);
 
 //Exercicio Bonus 4
 elementSectionRight.style.marginRight = "auto";
+
+//Exercicio Bonus 5
+elementSection.parentNode.style.backgroundColor = "green";
+
+//Exercicio Bonus 6
+for(let index = 0; index < 2; index += 1) { 
+elementUl.lastChild.remove();
+}

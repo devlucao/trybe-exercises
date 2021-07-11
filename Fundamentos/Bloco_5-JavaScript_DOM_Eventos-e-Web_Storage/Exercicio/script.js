@@ -26,3 +26,8 @@ elementSection.appendChild(paragraphSection1);
 const elementSection2 = document.createElement("section");
 elementSection2.className = "left-content";
 elementMain.appendChild(elementSection2);
+
+// Exercicio 6
+const elementSection3 = document.createElement("section");
+elementSection3.className = "right-content";
+elementMain.appendChild(elementSection3);

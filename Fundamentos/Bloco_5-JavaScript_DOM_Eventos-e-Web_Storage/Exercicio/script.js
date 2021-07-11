@@ -23,11 +23,17 @@ paragraphSection1.innerHTML = "Vamo que vamo!"
 elementSection.appendChild(paragraphSection1);
 
 // Exercicio 5
-const elementSection2 = document.createElement("section");
-elementSection2.className = "left-content";
-elementMain.appendChild(elementSection2);
+const elementSectionLeft = document.createElement("section");
+elementSectionLeft.className = "left-content";
+elementMain.appendChild(elementSectionLeft);
 
 // Exercicio 6
-const elementSection3 = document.createElement("section");
-elementSection3.className = "right-content";
-elementMain.appendChild(elementSection3);
+const elementSectionRight = document.createElement("section");
+elementSectionRight.className = "right-content";
+elementMain.appendChild(elementSectionRight);
+
+//Exercicio 7
+const elementImg = document.createElement("img");
+elementImg.className = "small-image";
+elementImg.src = "https://picsum.photos/200";
+elementSectionLeft.appendChild(elementImg);

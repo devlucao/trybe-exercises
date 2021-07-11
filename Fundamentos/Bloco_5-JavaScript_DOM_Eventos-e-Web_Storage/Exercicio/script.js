@@ -51,6 +51,16 @@ for(let number in numbers){
 //Exercicio 9
 for(let index = 0; index <= 3; index+=1){
 const elementH3 = document.createElement("h3");
+elementH3.innerHTML = "Top " + index;
 elementMain.appendChild(elementH3);
 }
 
+
+//Exercicio Bonus 1
+tagH1.className = "title";
+
+// Exercicio Bonus 2
+const elementsH3 = document.getElementsByTagName("h3");
+for(let index = 0; index <= 3; index +=1){
+    elementsH3[index].className = "description";
+}

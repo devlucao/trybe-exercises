@@ -20,3 +20,24 @@ const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
 const terceiroFilho2 = pai.lastElementChild.previousElementSibling;
 
 // Exercícios Vídeo 2
+
+const pai = document.getElementById('pai');
+const elementoOndeVoceEstaIrmao = document.createElement("section");
+
+elementoOndeVoceEstaIrmao.id = "elementoOndeVoceEstaIrmao";
+
+pai.appendChild(ElementoOndeVoceEstaIrmao);
+
+const elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+const filhoElementoOndeVoceEsta = document.createElement('section');
+filhoElementoOndeVoceEsta.id = 'filhoElementoOndeVoceEsta';
+elementoOndeVoceEsta.appendChild(filhoElementoOndeVoceEsta);
+
+const terceiroFilho = filhoPrimeiroFilhoDoFilho
+.parentElement.parentElement.nextElementSibling; 
+console.log(terceiroFilho);
+
+
+    const terceiroFilho = filhoPrimeiroFilhoDoFilho.parentElement.parentElement.nextElementSibling; 
+    console.log(terceiroFilho);
+

@@ -64,3 +64,9 @@ const elementsH3 = document.getElementsByTagName("h3");
 for(let index = 0; index <= 3; index +=1){
     elementsH3[index].className = "description";
 }
+
+//Exercicio Bonus 3
+elementMain.removeChild(elementSectionLeft);
+
+//Exercicio Bonus 4
+elementSectionRight.style.marginRight = "auto";

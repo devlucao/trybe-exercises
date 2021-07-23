@@ -1,4 +1,4 @@
-//Exercício 1
+// Exercício 1
 
 // function testingScope(escopo) {
 //     if (escopo === true) {
@@ -14,9 +14,17 @@
 
 //   testingScope(true);
 
-  const testingScope = (escopo) => escopo === true ? console.log(`Não devo ser utilizada fora do meu escopo(if) ótimo, fui utilizada no escopo`) : console.log(`Não devo ser utilizada fora do meu escopo (else)`);
+//   let ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
+//   ifScope = ifScope + ' ótimo, fui utilizada no escopo !';
+//   let elseScope = 'Não devo ser utilizada fora meu escopo (else)';
 
-  testingScope(true);
+//   const testingScope = escopo => escopo === true ? console.log(`${ifScope}`) : console.log(`${elseScope}`);
+
+//   testingScope(true);
 
 // Exercício 2
+
+const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+
+// console.log(`A ordem dos números é ${oddsAndEvens.sort((a, b) => a - b)} !`);
 

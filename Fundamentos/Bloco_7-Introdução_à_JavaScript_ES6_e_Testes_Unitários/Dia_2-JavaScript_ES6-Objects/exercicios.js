@@ -51,7 +51,7 @@ const order = {
     const name = order.name;
     const ValorTotal = order.order.pizza.marguerita.price + order.order.pizza.pepperoni.price + order.order.drinks.price;
     const pizzas = Object.keys(order.order.pizza);
-    const drinks = order.order.drinks.coke.type
+    const drinks = order.order.drinks.coke.type;
   
     
     console.log(`Olá ${name}, o total do seu pedido de ${pizzas} e ${drinks} é R$ ${ValorTotal},00.`)
@@ -59,3 +59,26 @@ const order = {
   }
   
   orderModifier(order);
+
+  // Exercícios parte 2
+
+  const lesson1 = {
+    materia: 'Matemática',
+    numeroEstudantes: 20,
+    professor: 'Maria Clara',
+    turno: 'manhã',
+  };
+  
+  const lesson2 = {
+    materia: 'História',
+    numeroEstudantes: 20,
+    professor: 'Carlos',
+  };
+  
+  const lesson3 = {
+    materia: 'Matemática',
+    numeroEstudantes: 10,
+    professor: 'Maria Clara',
+    turno: 'noite',
+  };
+  

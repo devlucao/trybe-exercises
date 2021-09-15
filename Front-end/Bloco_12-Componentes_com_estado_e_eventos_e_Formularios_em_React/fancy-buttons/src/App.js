@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 
 class App extends Component {
+  constructor() {
+    super()
+    this.december = this.december.bind(this);
+    console.log('Construindo componente')
+  }
 
   december() {
+    console.log(this); // Para que a função enxergue o this é necessário realizar o bind dentro do constructor conforme linha 6.
     console.log('Em Dezembro de 81 botou os ingleses na roda')
   }
   
@@ -14,7 +20,6 @@ class App extends Component {
     console.log('E no Rio não tem outro igual, só o FLAMENGO é campeão mundial!')
   }
   render() {
-    console.log(this);
     return (
       <div className="App">
         {/* Quando queremos chamar uma função que se encontra dentro da classe precisamos utilizar o .this */}

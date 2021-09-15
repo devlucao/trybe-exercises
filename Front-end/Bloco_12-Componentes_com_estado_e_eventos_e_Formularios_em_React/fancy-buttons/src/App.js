@@ -13,8 +13,13 @@ class App extends Component {
     // console.log(this); // Para que a função enxergue o this é necessário realizar o bind dentro do constructor conforme linha 6. Sem o bind o console retorna undefined.
     this.setState((estadoAnterior, _props) => ({
       numeroDeCliques: estadoAnterior.numeroDeCliques + 1
-    }))
-    console.log('Clicou')
+    }), () => {
+      console.log(`${this.getButtonColor(this.state.numeroDeCliques)}`);
+    });
+  }
+
+  getButtonColor(num) {
+    return num % 2 === 0 ? 'green' : 'white';
   }
 
   december() {
@@ -29,10 +34,16 @@ class App extends Component {
     console.log('E no Rio não tem outro igual, só o FLAMENGO é campeão mundial!')
   }
   render() {
+    const { numeroDeCliques } = this.state;
     return (
       <div className="App">
         {/* Quando queremos chamar uma função que se encontra dentro da classe precisamos utilizar o .this */}
-        <button onClick={this.handleClick}>{this.state.numeroDeCliques}</button>
+        <button 
+        onClick={this.handleClick}
+        style={{ backgroundColor: this.getButtonColor(numeroDeCliques) }}
+        >
+          {this.state.numeroDeCliques
+        }</button>
         <button onClick={this.december}>Parte 1</button>
         <button onClick={this.placarMundial}>Parte 2</button>
         <button onClick={this.maiorDoRio}>Parte 3</button>

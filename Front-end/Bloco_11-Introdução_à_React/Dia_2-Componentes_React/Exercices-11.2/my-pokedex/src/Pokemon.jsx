@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import './data';
-import pokemons from './data';
 
 class Pokemon extends Component {
     render() {

@@ -10,7 +10,7 @@ class App extends Component {
   }
 
   handleClick() {
-    console.log(this); // Para que a função enxergue o this é necessário realizar o bind dentro do constructor conforme linha 6. Sem o bind o console retorna undefined.
+    // console.log(this); // Para que a função enxergue o this é necessário realizar o bind dentro do constructor conforme linha 6. Sem o bind o console retorna undefined.
     this.setState((estadoAnterior, _props) => ({
       numeroDeCliques: estadoAnterior.numeroDeCliques + 1
     }))
